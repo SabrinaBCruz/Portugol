@@ -8,7 +8,7 @@ saldo:real
 Inicio
  saldo<-2000
  escreval("::Ola, seu saldo e de::", saldo)
- escreval("::Digite o numero equivalente a opÁ„o desejada::")
+ escreval("::Digite o numero equivalente a op√ß√£o desejada::")
  escreval("1-Sacar dinheiro")
  escreval("2-Depositar dinheiro")
  escreval("3-Pagar Boleto")
@@ -19,12 +19,12 @@ escolha opcao
 
 caso 1
 
-escreva("::Digite o valor que vocÍ deseja sacar R$::")
+escreva("::Digite o valor que voc√™ deseja sacar R$::")
 leia(opcao)
 se(opcao<saldo)entao
 escreva("::Seu saldo atual e de::",saldo-opcao)
 senao(opcao>saldo)entao
-escreval("::Erro, saldo n„o existente::")
+escreval("::Erro, saldo n√£o existente::")
 
 fimse
 
@@ -41,7 +41,7 @@ leia(opcao)
 se(opcao<saldo)entao
 escreva("::Seu boleto foi pago!::")
 senao(opcao>saldo)entao
-escreval("::N„o foi possivel realizar o pagamento::")
+escreval("::N√£o foi possivel realizar o pagamento::")
 
 fimse
 
